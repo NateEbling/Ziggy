@@ -163,7 +163,7 @@ Hi Boolean brick NONE NONE
 Hi StorageClass grey NONE NONE
 Hi Type blue NONE NONE
 Hi Variable grey NONE NONE
-Hi Visual lgrey NONE NONE
+Hi Visual black lgrey NONE
 
 hi! link Character String
 hi! link Error ErrorMsg

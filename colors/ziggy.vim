@@ -120,7 +120,7 @@ Hi ErrorMsg brick NONE bold
 Hi FoldColumn grey background NONE
 Hi Identifier grey NONE NONE
 Hi Include orange NONE bold
-Hi Keyword white white bold
+Hi Keyword white NONE bold
 Hi LineNR grey NONE NONE
 Hi Macro orange NONE NONE
 Hi MatchParen NONE NONE bold

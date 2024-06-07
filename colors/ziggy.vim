@@ -6,44 +6,50 @@
 " Website
 " License
 
-set background=dark
+set background=light
 
 hi clear
 
 if exists('g:syntax_on')
-    syntax reset
+  syntax reset
 endif
 
-let g:colors_name = 'ziggy'
+let g:colors_name = 'paper'
 
+" Function for creating a highlight group
+"
+" We use this function so we can use variables in our highlight groups, instead
+" of having to repeat the same color codes in a bunch of places.
 function! s:Hi(group, fg_name, bg_name, gui, ...)
-    if a:fg_name == 'NONE'
-        let fg = a:fg_name
-    else
-        let fg = s:colors[a:fg_name]
-    endif
+  if a:fg_name == 'NONE'
+    let fg = a:fg_name
+  else
+    let fg = s:colors[a:fg_name]
+  endif
 
-    if a:bg_name == 'NONE'
-        let bg = a:bg_name
-    else
-        let bg = s:colors[a:bg_name]
-    endif
+  if a:bg_name == 'NONE'
+    let bg = a:bg_name
+  else
+    let bg = s:colors[a:bg_name]
+  endif
 
-    if empty(a:gui)
-        let style = 'NONE'
-    else
-        let style = a:gui
-    endif
+  if empty(a:gui)
+    let style = 'NONE'
+  else
+    let style = a:gui
+  endif
 
-    if a:0 == 1 && !empty(a:1)
-        let sp = s:colors[a:1]
-    else
-        let sp = 'NONE'
-    endif
+  if a:0 == 1 && !empty(a:1)
+    let sp = s:colors[a:1]
+  else
+    let sp = 'NONE'
+  endif
 
-    exe 'hi ' . a:group . ' guifg=' . fg . ' guibg=' . bg . ' gui=' . style . 'guisp=' .sp
+  exe 'hi ' . a:group . ' guifg=' . fg . ' guibg=' . bg . ' gui=' . style . ' guisp=' . sp
 endfunction
 
+" A temporary command is used to make it easier/less verbose to define highlight
+" groups. This command is removed at the end of this file.
 command! -nargs=+ Hi call s:Hi(<f-args>)
 
 " Colors

@@ -111,7 +111,7 @@ Hi ColorColumn NONE background NONE
 Hi Comment dyellow NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant grey NONE NONE
-Hi Cursor NONE white NONE
+Hi Cursor NONE grey NONE
 Hi CursorLine NONE black bold
 Hi CursorLineNR black NONE bold
 Hi Directory grey NONE NONE
@@ -119,7 +119,7 @@ Hi ErrorMsg brick NONE bold
 Hi FoldColumn grey background NONE
 Hi Identifier grey NONE NONE
 Hi Include orange NONE bold
-Hi Keyword white NONE bold
+Hi Keyword NONE bold
 Hi LineNR grey NONE NONE
 Hi Macro orange NONE NONE
 Hi MatchParen NONE NONE bold
@@ -145,7 +145,7 @@ Hi SpellRare lpurple NONE undercurl
 Hi StatusLine grey background NONE
 Hi StatusLineNC grey background NONE
 Hi String green NONE NONE
-Hi TabLine lgrey background NONE
+Hi TabLine grey background NONE
 Hi TabLineFill grey background NONE
 Hi TabLineSel black background NONE
 Hi Title white NONE bold

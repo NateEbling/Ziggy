@@ -110,7 +110,7 @@ Hi ColorColumn NONE background NONE
 Hi Comment dyellow NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant grey NONE NONE
-Hi Cursor NONE grey NONE
+Hi Cursor NONE white NONE
 Hi CursorLine NONE black bold
 Hi CursorLineNR black NONE bold
 Hi Directory grey NONE NONE

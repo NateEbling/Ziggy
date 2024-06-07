@@ -145,8 +145,8 @@ Hi SpellRare lpurple NONE undercurl
 Hi StatusLine grey background NONE
 Hi StatusLineNC grey background NONE
 Hi String green NONE NONE
-Hi TabLine grey background NONE
-Hi TabLineFill lgrey background NONE
+Hi TabLine lgrey background NONE
+Hi TabLineFill grey background NONE
 Hi TabLineSel black background NONE
 Hi Title white NONE bold
 Hi Todo grey NONE bold

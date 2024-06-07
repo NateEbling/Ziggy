@@ -126,7 +126,7 @@ Hi MatchParen NONE NONE bold
 Hi MoreMsg grey NONE NONE
 Hi NonText grey NONE NONE
 Hi Normal grey background NONE
-Hi NormalFloat lgrey background NONE
+Hi NormalFloat grey background NONE
 Hi Bold white NONE bold
 Hi Number brick NONE NONE
 Hi Operator grey NONE NONE
@@ -137,7 +137,7 @@ Hi Question grey NONE NONE
 Hi Regexp orange NONE NONE
 Hi Search NONE orange NONE
 Hi IncSearch NONE orange NONE
-Hi Special grey NONE NONE
+Hi Special lgrey black NONE
 Hi SpellBad brick NONE bold,undercurl
 Hi SpellCap lpurple NONE undercurl
 Hi SpellLocal green NONE undercurl

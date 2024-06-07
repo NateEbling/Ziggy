@@ -64,7 +64,7 @@ let s:colors = {
 \ 'dyellow': '#a1a171',
 \ 'brick': '#c16565',
 \ 'black': '#000000',
-\ 'lgrey': 'e7e7e7',:w
+\ 'lgrey': 'e7e7e7',
 \ }
 
 if has('nvim')

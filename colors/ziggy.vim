@@ -106,17 +106,71 @@ endif
 
 " Hi NAME FG BG GUI GUISP
 " Highlight groups
+Hi ColorColumn NONE background NONE
 Hi Comment dyellow NONE NONE
+Hi Conceal NONE NONE NONE
+Hi Constant grey NONE NONE
 Hi Cursor NONE grey NONE
+Hi CursorLine NONE black bold
+Hi CursorLineNR black NONE bold
 Hi Directory grey NONE NONE
 Hi ErrorMsg brick NONE bold
+Hi FoldColumn grey background NONE
+Hi Identifier grey NONE NONE
+Hi Include orange NONE bold
 Hi Keyword white NONE bold
+Hi LineNR grey NONE NONE
+Hi Macro orange NONE NONE
+Hi MatchParen NONE NONE bold
+Hi MoreMsg grey NONE NONE
+Hi NonText grey NONE NONE
+Hi Normal grey background NONE
+Hi NormalFloat grey background NONE
+Hi Bold white NONE bold
 Hi Number brick NONE NONE
 Hi Operator grey NONE NONE
+Hi Pmenu grey background NONE
+Hi PmenuSelf grey background NONE
+Hi PreProc orange NONE NONE
+Hi Question grey NONE NONE
+Hi Regexp orange NONE NONE
+Hi Search NONE orange NONE
+Hi IncSearch NONE orange NONE
+Hi Special grey NONE NONE
+Hi SpellBad brick NONE bold,undercurl
+Hi SpellCap lpurple NONE undercurl
+Hi SpellLocal green NONE undercurl
+Hi SpellRare lpurple NONE undercurl
+Hi StatusLine grey background NONE
+Hi StatusLineNC grey background NONE
 Hi String green NONE NONE
+Hi TabLine grey background NONE
+Hi TabLineFill grey background NONE
+Hi TabLineSel grey background NONE
+Hi Title white NONE bold
+Hi Todo grey NONE bold
+Hi VertSplit grey NONE NONE
+Hi WarningMsg orange NONE bold
+Hi Underlined NONE NONE underline
+Hi DiagnosticInfo green NONE NONE
+Hi DiagnosticSignInfo green NONE NONE
+Hi DiagnosticWarn orange NONE NONE
+Hi DiagnosticError brick NONE NONE
+
 Hi Boolean brick NONE NONE
 Hi StorageClass grey NONE NONE
 Hi Type blue NONE NONE
+Hi Variable grey NONE NONE
+
+hi! link Character String
+hi! link Error ErrorMsg
+hi! link Folded Comment
+hi! link Visual Cursor
+
+
+
+
+
 
 delcommand Hi
 

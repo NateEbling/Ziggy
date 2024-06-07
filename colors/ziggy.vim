@@ -146,7 +146,7 @@ Hi StatusLineNC grey background NONE
 Hi String green NONE NONE
 Hi TabLine grey background NONE
 Hi TabLineFill grey background NONE
-Hi TabLineSel grey background NONE
+Hi TabLineSel black background NONE
 Hi Title white NONE bold
 Hi Todo grey NONE bold
 Hi VertSplit grey NONE NONE

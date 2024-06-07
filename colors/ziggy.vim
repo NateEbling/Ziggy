@@ -133,7 +133,7 @@ Hi Number brick NONE NONE
 Hi Operator grey NONE NONE
 Hi Pmenu grey background NONE
 Hi PmenuSelf grey background NONE
-Hi PreProc orange NONE NONE
+Hi PreProc white NONE bold
 Hi Question grey NONE NONE
 Hi Regexp orange NONE NONE
 Hi Search lgrey black NONE

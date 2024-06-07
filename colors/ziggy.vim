@@ -55,6 +55,7 @@ command! -nargs=+ Hi call s:Hi(<f-args>)
 " Colors
 let s:colors = {
 \ 'background': '#222222',
+\ 'lbackground': '#4d4d4d',
 \ 'green': '#21df51',
 \ 'white': '#e3e3e3',
 \ 'lpurple': '#a797ea',
@@ -107,7 +108,7 @@ endif
 
 " Hi NAME FG BG GUI GUISP
 " Highlight groups
-Hi ColorColumn NONE background NONE
+Hi ColorColumn NONE lbackground NONE
 Hi Comment dyellow NONE NONE
 Hi Conceal NONE NONE NONE
 Hi Constant grey NONE NONE

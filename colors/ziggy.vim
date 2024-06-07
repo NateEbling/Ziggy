@@ -135,9 +135,9 @@ Hi PmenuSelf grey background NONE
 Hi PreProc orange NONE NONE
 Hi Question grey NONE NONE
 Hi Regexp orange NONE NONE
-Hi Search NONE orange NONE
+Hi Search lgrey black NONE
 Hi IncSearch NONE orange NONE
-Hi Special lgrey black NONE
+Hi Special grey NONE NONE
 Hi SpellBad brick NONE bold,undercurl
 Hi SpellCap lpurple NONE undercurl
 Hi SpellLocal green NONE undercurl
